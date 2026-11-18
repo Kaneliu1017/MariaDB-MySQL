@@ -1,4 +1,4 @@
-# Databases
+# Database Management
 Exercises and practice from the Databases module: relational database
 design, modeling and SQL.
 
