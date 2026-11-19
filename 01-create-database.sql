@@ -1,10 +1,21 @@
-/* Physical Database Design
-Create the database and selects it */
+/*
+=========================================================
+FILE: 01-create-database.sql
 
-DROP DATABASE IF EXISTS my_database;
+PURPOSE
+Create the project database.
 
-CREATE DATABASE my_database
+TOPICS
+- CREATE DATABASE
+- CHARACTER SET
+- COLLATION
+=========================================================
+*/
+
+DROP DATABASE IF EXISTS company_management;
+
+CREATE DATABASE company_management
 CHARACTER SET utf8mb4
 COLLATE utf8mb4_unicode_ci;
 
-USE my_database;
+USE company_management;
